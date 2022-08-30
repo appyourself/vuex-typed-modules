@@ -58,6 +58,7 @@
   },
   "homepage": "https://github.com/victorgarciaesgi/Vuex-typed-modules#readme",
   "scripts": {
+    "prepare": "yarn build",
     "clean": "rimraf dist && rimraf types",
     "compile": "tsc --pretty",
     "dev": "tsc --pretty --watch",
